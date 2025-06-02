@@ -1,0 +1,17 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+*.sqlite3
+*.db
+
+# 📦 Virtual environments
+venv/
+env/
+.venv/
+
+# 🧠 LangChain / Chroma
+chroma_langchain_db/
+
+#
