@@ -18,8 +18,8 @@ if add_location:
 
     for i, row in df.iterrows():
         document = Document(
-            page_content=row["gym_name"] + row["location"] + row["membership_cost"] ,
-            metadata={"membership_cost": row["membership_cost"],"amenities": row["amenities"],"websitesexit": row["website"]},
+            page_content=row["gym_name"] + row["location"] ,
+            metadata={"membership_cost": row["membership_cost"],"amenities": row["amenities"],"website": row["website"]},
             id = str(i)
         )
         ids.append(str(i))
